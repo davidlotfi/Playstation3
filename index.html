@@ -10,35 +10,28 @@
   <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
   <script src="lib/angular/angular.min.js"></script>
   <script src="lib/angular/angular-route.min.js"></script>
-
+  <script src="lib/angular/angular-animate.min.js"></script>
   <script src="controller/app.js"></script>
   <script src="controller/controller.js"></script>
 
-
   <title>Playtation 3</title>
+
   <style media="screen">
-  .col :hover{
-    // pour le moument jusqua je utilise animationangular
-   //transform: scale(2.5);
-   color: #e2dfe2;
-   //cursor:wait;
-   cursor: default;
-      }
-      li{
-        margin-top: 30px;
-      }
-      span{
-        position: absolute;
-        margin-left: 15px;
-        margin-top: 10px;
-      }
+
   </style>
 
 </head>
 <body>
+  <audio>
+    <source src="audio/click.mp3">
+    <source src="audio/rrr.wav">
+  </audio>
+
 
       <div ng-view></div>
 
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/sound-mouseover.js"></script>
+
 </body>
 </html>
