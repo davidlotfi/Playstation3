@@ -1,0 +1,53 @@
+body{
+  background-image: url("../images/g2ps4.jpg");
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  }
+
+.bg-dar{background-color:#343a40!important}
+i{
+  font-size: 42px;
+ }
+
+.row{
+  margin-top: 100px;
+}
+.row i{
+  color: rgba(255, 255, 255, 0.71);
+}
+.col{
+  opacity: .9;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+ul{
+  margin-top:40px;
+  list-style-type: none;
+}
+
+.col :hover{
+  text-shadow: 0px 0px 3px white;
+  color: white;
+  cursor: default;
+  opacity: 1;
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+ -ms-transform: scale(1.2);
+  transform: scale(2.0);
+    }
+li{
+    margin-top: 30px;
+ }
+.sun li :hover{
+   text-shadow: 0px 0px 3px white;
+
+  }
+  span{
+      position: absolute;
+      margin-left: 15px;
+      margin-top: 10px;
+      color: white;
+  }
