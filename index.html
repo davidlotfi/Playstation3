@@ -50,10 +50,24 @@
        width: 150px;
        height: 200px;
      }
+     .galerieimg{
+       width: 100%;
+       height: 200px;
+       max-height: 200px;
+     }
+
+
+      .blurred{
+
+        filter: blur(8px);
+       -webkit-filter: blur(8px);
+
+      }
+
   </style>
 
 </head>
-<body>
+<body class="bodyc">
   <audio>
     <source src="audio/turn.wav">
     <source src="audio/nin.wav">
@@ -62,10 +76,15 @@
   </audio>
 
 
-      <div ng-view></div>
+       <div ng-view></div>
 
+<script type="text/javascript">
+         $('#button').on('click', function(){
+             $('.bodyc').addClass('blurred');
+        });
+ </script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slim.min.js"></script>
 <script type="text/javascript" src="js/sound-mouseover.js"></script>
-
 </body>
 </html>
