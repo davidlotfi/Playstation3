@@ -63,11 +63,15 @@
        -webkit-filter: blur(8px);
 
       }
+      .bg-dark {
+         background-color:rgba(53, 59, 65, 0.4) !important;
+         height: 100px;
+      }
 
   </style>
 
 </head>
-<body class="bodyc">
+<body >
   <audio>
     <source src="audio/turn.wav">
     <source src="audio/nin.wav">
@@ -79,9 +83,10 @@
        <div ng-view></div>
 
 <script type="text/javascript">
-         $('#button').on('click', function(){
-             $('.bodyc').addClass('blurred');
-        });
+     function myFunction() {
+             var element = document.getElementById("bodyc");
+              element.classList.add("blurred");
+    }
  </script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.slim.min.js"></script>
