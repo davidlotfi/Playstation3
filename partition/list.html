@@ -1,0 +1,85 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col" ng-controller="ListController">
+       <i  class="fas fa-briefcase" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" onmouseover="playclip()"></i>
+
+       <div class="">
+         <ul >
+           <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>Système</span></li>
+           <li ng-show="hoverEdit" ><i class="fas fa-file-image"></i><span>Thème</span></li>
+           <li ng-show="hoverEdit" ><i class='fas fa-smile'></i><span>Abdellatif</span></li>
+           <li ng-show="hoverEdit" > <i class='fas fa-calendar-alt'></i><span>Date</span></li>
+           <li ng-show="hoverEdit" ><i class='fas fa-power-off'></i><span>Power off</span></li>
+         </ul>
+       </div>
+
+    </div>
+    <div class="col" ng-controller="ListController">
+        <a href="#/game">
+            <i class="fab fa-playstation" ng-mouseover="hoverIn()" onmouseover="playclip()"></i>
+            <img class="gameimg" ng-show="hoverEdit" onmouseover="playclip()" src="images/gta5.jpg" alt="">
+            <img class="gameimg" ng-show="hoverEdit" onmouseover="playclip()" src="images/G.jpeg" alt="">
+            <img class="gameimg" ng-show="hoverEdit" onmouseover="playclip()" src="images/GW.jpg" alt="">
+            <i  class="close fas fa-compress" ng-show="hoverEdit" ng-mouseleave="hoverOut()" onmouseover="playclip()"  style="color:red"></i>
+        </a>
+    </div>
+
+
+    <div class="col" ng-controller="ListController">
+      <a href="#/galerie">
+       <i class="fab fa-instagram"  ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" onmouseover="playclip()"></i>
+       <img class="gameimg" ng-show="hoverEdit" src="galerie/1.jpg" alt="">
+       <img class="gameimg" ng-show="hoverEdit" src="galerie/2.jpg" alt="">
+       <img class="gameimg" ng-show="hoverEdit" src="galerie/3.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="col" ng-controller="ListController">
+        <a href="#/vgame">
+       <i class="fas fa-film" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" onmouseover="playclip()"></i>
+       <div  class="card" style="width: 13rem;" ng-show="hoverEdit" >
+          <img src="images/fc.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text of the card's dflkdjdf dkfjldfj content.</p>
+         </div>
+      </div>
+          </a>
+    </div>
+
+    <div class="col" ng-controller="ListController">
+        <a href="#/audio">
+       <i class="fas fa-music" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()" onmouseover="playclip()"></i>
+       <ul>
+         <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>boukernine</span></li>
+         <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>boukernine</span></li>
+         <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>boukernine</span></li>
+         <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>boukernine</span></li>
+         <li ng-show="hoverEdit" ><i class="fas fa-briefcase"></i><span>boukernine</span></li>
+       </ul>
+        </a>
+    </div>
+
+    <div class="col">
+       <i class="fas fa-rss" onmouseover="playclip()"></i>
+    </div>
+
+    <div class="col">
+        <a href="#/youtube">
+          <i class="fab fa-youtube" onmouseover="playclip()"></i>
+        </a>
+    </div>
+    <div class="col">
+      <a href="#/store">
+         <img class="imgstore" src="images\stroe.png" alt="">
+      </a>
+    </div>
+    <div class="col">
+       <i class="fab fa-telegram-plane" onmouseover="playclip()"></i>
+    </div>
+    <div class="col">
+       <i class="fas fa-globe" onmouseover="playclip()"></i>
+    </div>
+
+  </div><!--fin row-->
+</div><!-- fin container -->
