@@ -7,5 +7,8 @@ jusqu'a ici c'est une meilleur application angular single page(monopage) que vou
 
 ![image](https://github.com/davidlotfi/Playstation3/blob/master/img1.jpg)
 
+![image](https://github.com/davidlotfi/Playstation3/blob/master/img2.jpg)
+
+
 
 
